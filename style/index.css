@@ -1,0 +1,46 @@
+.logo figure {
+    background-color: #BEC0BD;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+figcaption {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 400px;
+}
+#about {
+    float: right;
+    margin-right: 0%;
+}
+.about {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    text-align: left;
+}
+#aboutus {
+    margin-bottom: 15%;
+}
+#community {
+    display: block;
+    float: left;
+    width: 500px;
+}
+figcaption a {
+    color: antiquewhite;
+}
+#missionvision {
+    margin-bottom: 20%;
+}
+#missionvision h3 {
+    text-align: left;
+    margin-left: 48%;
+}
+.mv {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    text-align: left;
+}

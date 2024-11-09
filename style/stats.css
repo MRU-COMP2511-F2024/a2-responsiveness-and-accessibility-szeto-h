@@ -1,0 +1,44 @@
+p {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+table {
+    border: 1px solid;
+    border-color: #CAE9FF;
+    /*W3Schools. (n.d.). CSS Tables. https://www.w3schools.com/css/css_table.asp */
+    border-collapse: collapse;
+    margin: auto;
+    background-color: #CAE9FF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #252628;
+}
+caption {
+    color: antiquewhite;
+    font-size: large;
+}
+/*W3Schools. (n.d.). How TO-Zebra Striped Table. https://www.w3schools.com/howto/howto_css_table_zebra.asp*/
+tr:nth-child(even) {
+    background-color: #5FA8D3;
+}
+td, th {
+    border: 1px solid;
+    padding: 8px;
+    text-align: center;
+}
+figure {
+    float: left;
+    width: 400px;
+}
+figcaption {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+figcaption a {
+    color: antiquewhite;
+}
+#data, #analysis {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#analysis p {
+    text-align: left;
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Helen Szeto">
+    <meta name="description" content="Contact RaidMetrics & FAQ">
+    <meta name="keyword" content="faq, contact us">
+    <title>FAQ & Contact Us</title>
+    <link rel="icon" href="images/logoicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style/stylesheet.css" type="text/css">
+    <link rel="stylesheet" href="style/contactus.css" type="text/css">
+</head>
+
+<body>
+    <!--W3Schools. (n.d.). How TO-Sticky/Affix Navbar. https://www.w3schools.com/howto/howto_js_navbar_sticky.asp -->
+    <div class="navbar">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="stats.html">Statistics</a></li>
+                <li><a href="contactus.html" class="active">Contact Us</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#contactus">Contact Us</a></li>
+                <li><a href="https://www.pcgamer.com/the-best-mmos/" target="_blank">PC Gamer - Find the best
+                        MMORPG!</a></li>
+                <li><a href=""></a></li>
+            </ul>
+        </nav>
+    </div>
+    <header>
+        <h1>RaidMetrics</h1>
+    </header>
+    <main>
+        <article>
+            <section id="faq">
+                <h2>FAQ</h2>
+                <h3>How is data collected?</h3>
+                <p>All of our data come from gamers who submit their game log volunteerily! The data is then processed
+                    by
+                    our team and shared on our website, ensuring no personal or identifiable data is leaked.</p>
+                <h3>How do I submit my data?</h3>
+                <p>Thank you for your willingness to share your data with us! To share your data you can simply submit a
+                    contact us request through the <a href="#contactus">Contact Us form</a> and we will provide you with
+                    instructions.</p>
+                <h3>Is everything here free?</h3>
+                <p>Of course! All information and resources on this website is free, in hopes to build a supportive
+                    community.</p>
+            </section>
+            <section id="contact">
+                <h2>Contact Us Form</h2>
+                <form id="contactus" method="post" action="mailto:hszet990@mtroyal.ca">
+                    <fieldset>
+                        <legend>Contact Information</legend>
+                        <dl>
+                            <dt><small>Fields with * are required fields.</small></dt>
+
+                            <dt><label for="mr">Salutation* :</label></dt>
+                            <dd>
+                                <input type="radio" name="salutation" id="mr">Mr.
+                                <input type="radio" name="salutation" id="mrs" required>Mrs.
+                                <input type="radio" name="salutation" id="ms">Ms.
+                                <input type="radio" name="salutation" id="miss">Miss
+                            </dd>
+
+                            <dt><label for="fname">First name* :</label></dt>
+                            <dd><input type="text" id="fname" name="firstname" autofocus required>
+                            </dd>
+
+                            <dt><label for="lname">Last name* :</label></dt>
+                            <dd><input type="text" id="lname" required></dd>
+
+                            <dt><label for="phone">Phone number* :</label></dt>
+                            <dd><input type="tel" pattern="[0-9]{3}[\-][0-9]{3}[\-][0-9]{4}" placeholder="123-456-7890"
+                                    id="phone" required></dd>
+
+                            <dt><label for="email">Email* :</label></dt>
+                            <dd><input type="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9._%+-]\.[a-z0-9.-]"
+                                    placeholder="email@example.com" required></dd>
+
+                            <dt><label for="sub">Subject* :</label></dt>
+                            <dd>
+                                <select name="sub" id="sub">
+                                    <option>Report an error</option>
+                                    <option>Submit data</option>
+                                    <option>Other</option>
+                                </select>
+                            </dd>
+
+                            <dt><label for="message">Message* :</label></dt>
+                            <dd><textarea name="message" id="message" rows="3" cols="40"
+                                    placeholder="Please enter your message*" required></textarea></dd>
+
+                            <dt><label for="terms">Please agree to the following before you submit* :</label></dt>
+                            <dd class="agreeopt"><input type="checkbox" name="agree" id="terms" required>I have read the
+                                terms and conditions.</dd>
+                            <dd class="agreeopt"><input type="checkbox" name="agree" id="news" required>I understand
+                                that
+                                by submitting this form I am NOT signing up for news updates.</dd>
+                        </dl>
+                        <input type="reset" value="Clear">
+                        <input type="submit" value="Submit">
+                    </fieldset>
+                </form>
+            </section>
+        </article>
+    </main>
+    <hr>
+    <footer id="copyright">
+        Copyright &copy; 2024, Helen Szeto, COMP 2511, MRU.
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,67 @@
+html {
+    background-color: #252628;
+    color:antiquewhite;
+}
+h1, h2, h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+h1 {
+    background-color: #1B4965;
+    color: antiquewhite;
+    padding: 1em;
+    margin-top: 0%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.navbar {
+    background-color: #62B6CB;
+    padding: 0em 0.05em 0.05em 0.05em;
+    margin-left: 5%;
+    margin-right: 5%;
+    position: sticky;
+    top: 0px;
+    overflow: hidden;
+    text-align: center;
+}
+nav ul li {
+    display: inline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0.5em;
+}
+.active {
+    background-color: #1B4965;
+    color:antiquewhite;
+    font-weight: bold;
+}
+a {
+    color: #252628;
+}
+a:hover {
+    background-color: #BEE9E8;
+}
+main {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+p {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*W3Schools. (n.d.). CSS ::first-letter Pseudo-. https://www.w3schools.com/cssref/sel_firstletter.php*/
+p::first-letter {
+    color: #BEE9E8;
+    font-weight: bold;
+    font-size: x-large;
+}
+hr {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+footer {
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
