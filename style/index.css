@@ -7,6 +7,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    height: 500px;
 }
 figcaption {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -23,6 +24,14 @@ figcaption {
 }
 #aboutus {
     margin-bottom: 15%;
+}
+.dps {
+    height:350px; 
+    width:350px;
+}
+.community {
+    height:300px;
+    width: 500px;
 }
 #community {
     display: block;
@@ -43,4 +52,17 @@ figcaption a {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: large;
     text-align: left;
+}
+
+@media screen and (min-width: 590px) {
+    #about {
+        display: none;
+    }
+    #community {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 790px) {
+    
 }

@@ -29,6 +29,10 @@ figure {
     float: left;
     width: 400px;
 }
+.analysis {
+    width: 400px; 
+    height: 400px;
+}
 figcaption {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
