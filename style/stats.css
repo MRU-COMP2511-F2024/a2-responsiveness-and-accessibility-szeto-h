@@ -48,12 +48,48 @@ figcaption a {
 }
 
 @media screen and (max-width: 590px) {
+
     figure {
         display: none;
     }
+    table {
+        width: 80%;
+        font-size: 0.8rem;
+    }
 }
 @media screen and (min-width:590px) and (max-width: 790px) {
-
+    article {
+        display: grid;
+        grid-template-rows: auto auto;
+        gap: 10px;
+        margin: 5%;
+    }
+    #data {
+        height: fit-content;
+    }
+    table thead tbody {
+        grid-row: 1;
+        display: grid;
+        grid-column: 1/span 2;
+    }
+    .analysis-container {
+        display: grid;
+        grid-row: 2;
+    }
+    .analysis-figure {
+        grid-column: 1;
+    }
+    figure {
+        margin: 0;
+    }
+    .analysis-text {
+        grid-column: 2;
+        font-size: 1.75vw;
+        margin-left: 5%;
+    }
+    .analysis-text h2 {
+        margin-top: 0;
+    }
 }
 
 @media screen and (min-width: 790px) {
