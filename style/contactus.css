@@ -16,3 +16,57 @@ input[type=radio] {
 input[type=submit] {
     float: right;
 }
+
+@media screen and (max-width: 590px) {
+    #faq h3, p {
+        text-align: left;
+    }
+    article {
+        display: grid;
+        grid-template-rows: auto auto;
+        gap: 10px;
+        margin: 0;
+    }
+    #faq {
+        grid-row: 1;
+    }
+    #contact {
+        grid-row: 2;
+    }
+}
+
+@media screen and (min-width:591px) and (max-width: 790px) {
+    article {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto auto;
+        gap: 10px;
+        margin: 0;
+        padding: 5%;
+    }
+    #faq {
+        grid-row: 1 / span 2;
+        grid-column: 1;
+    }
+    #contact {
+        grid-row: 1 / span 2;
+        grid-column: 2;
+    }
+}
+
+@media screen and (min-width: 790px) {
+    article {
+        max-width: 790px;
+        display: grid;
+        grid-template-rows: auto auto;
+        margin: auto;
+    }
+    #faq {
+        grid-row: 1 / span 2;
+        grid-column: 1;
+    }
+    #contact {
+        grid-row: 1 / span 2;
+        grid-column: 2;
+    }
+}
