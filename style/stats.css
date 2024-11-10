@@ -47,8 +47,15 @@ figcaption a {
     text-align: left;
 }
 
-@media screen and (min-width: 590px) {
+@media screen and (max-width: 590px) {
     figure {
         display: none;
     }
+}
+@media screen and (min-width:590px) and (max-width: 790px) {
+
+}
+
+@media screen and (min-width: 790px) {
+
 }
