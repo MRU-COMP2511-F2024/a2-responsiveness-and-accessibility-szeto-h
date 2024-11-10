@@ -2,6 +2,9 @@ html {
     background-color: #252628;
     color:antiquewhite;
 }
+main {
+    margin: 1rem;
+}
 h1, h2, h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
@@ -76,7 +79,7 @@ footer {
 
     .navbar {
         position: fixed;
-        height: 38%;
+        height: fit-content;
         width: 18%;
         margin: 0; 
         padding: 0;

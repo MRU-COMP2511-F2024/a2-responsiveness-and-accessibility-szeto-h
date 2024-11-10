@@ -48,8 +48,15 @@ figcaption a {
 }
 
 @media screen and (max-width: 590px) {
+    main {
+        font-size: 3vw;
+    }
     figure {
         display: none;
+    }
+    #data {
+        width: 100%;
+        overflow: auto;
     }
     table {
         width: 80%;
@@ -75,9 +82,7 @@ figcaption a {
         grid-template-rows: auto auto;
         gap: 10px;
         margin: 0;
-    }
-    #data {
-        height: fit-content;
+        font-size: 3vw;
     }
     table thead tbody {
         grid-row: 1;
@@ -112,9 +117,11 @@ figcaption a {
         display: grid;
         grid-template-rows: auto auto;
         margin: auto;
+        padding: 1rem;
     }
     #data {
         height: fit-content;
+        width: fit-content;
     }
     table thead tbody {
         grid-row: 1;
