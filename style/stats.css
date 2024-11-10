@@ -46,3 +46,9 @@ figcaption a {
 #analysis p {
     text-align: left;
 }
+
+@media screen and (min-width: 590px) {
+    figure {
+        display: none;
+    }
+}

@@ -61,6 +61,19 @@ figcaption a {
     #community {
         display: none;
     }
+    article {
+        display: grid;
+        grid-template-columns: 1;
+        grid-template-rows: 2;
+    }
+    #aboutus {
+        grid-row: 1;
+    }
+    #missionvision {
+        grid-row: 2;
+    }
+
+    
 }
 
 @media screen and (min-width: 790px) {
