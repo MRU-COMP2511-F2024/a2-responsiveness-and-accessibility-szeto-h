@@ -120,7 +120,6 @@ footer {
         margin-left: 0%;
         margin-right: 0%;
         width: 100%;
-        font-size: 2vw;
     }
     main {
         margin-left: 0%;
@@ -129,5 +128,24 @@ footer {
 }
 
 @media screen and (min-width: 790px) {
-
+    body {
+        margin: 0;
+    }
+    h1 {
+        margin: 0;
+    }
+    main {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    .navbar {
+        margin-left: 0%;
+        margin-right: 0%;
+        width: 100%;
+        font-size: normal;
+    }
+    main {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
 }

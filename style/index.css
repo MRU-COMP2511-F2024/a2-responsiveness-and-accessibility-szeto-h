@@ -152,9 +152,10 @@ figcaption a {
 @media screen and (min-width: 790px) {
 
     article {
-
         max-width: 790px;
-
+        display: grid;
+        grid-template-rows: 2fr 1fr;
+        margin: auto;
     }
     .about-container, .mission-container {
         display: grid;
