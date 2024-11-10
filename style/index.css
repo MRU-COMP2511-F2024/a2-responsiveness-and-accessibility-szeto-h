@@ -1,7 +1,5 @@
 .logo figure {
     background-color: #BEC0BD;
-    margin-left: 20%;
-    margin-right: 20%;
 }
 .logo {
     display: block;
@@ -9,23 +7,27 @@
     margin-right: auto;
     height: 500px;
 }
+
+article {
+    width: 80vw;
+}
 figcaption {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: 400px;
+}
+figcaption a {
+    color: antiquewhite;
 }
 
 .about {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: large;
+    font-size: 1rem;
     text-align: left;
-}
-#aboutus {
-    margin-bottom: 15%;
 }
 .dps {
     height:350px; 
     width:350px;
 }
+
 .community {
     height:300px;
     width: 500px;
@@ -34,19 +36,12 @@ figcaption {
     display: block;
     width: 500px;
 }
-figcaption a {
-    color: antiquewhite;
-}
-#missionvision {
-    margin-bottom: 20%;
-}
 #missionvision h3 {
     text-align: left;
-    margin-left: 48%;
 }
 .mv {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: large;
+    font-size: 1rem;
     text-align: left;
 }
 
@@ -57,6 +52,10 @@ figcaption a {
         grid-template-rows: 2;
     }
 
+    .about-container, .mission-container {
+        width: 90%;
+        padding: 0%;
+    }
     #about {
         display: none;
     }
@@ -86,27 +85,23 @@ figcaption a {
 }
 
 @media screen and (min-width:590px) and (max-width: 790px) {
-    .logo figure {
-        background-color: transparent;
+    html {
+        margin-left: auto;
+        margin-right: auto;
     }
-    .logo {
-        width: 100%;
-        height: 100%;
+    main, figure {
+        margin: 0;
+        padding: 0;
     }
-
     article {
         display: grid;
-        grid-template-rows: repeat(2, 1fr);
+        grid-template-rows: 2fr 1fr;
+        margin: auto;
     }
     .about-container, .mission-container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 10px;
-
-    }
-    .dps {
-        width: 80%;
-        height: auto;
     }
 
     #aboutus {
@@ -119,11 +114,14 @@ figcaption a {
     .about-figure {
         grid-column: 2;
     }
+    .dps {
+        width: 100%;
+        height: auto;
+    }
     figcaption {
-        width: 350px;
+        width: 200px;
         font-size: small;
     }
-
 
     #missionvision {
         grid-row: 2;
@@ -141,7 +139,7 @@ figcaption a {
         border: 0;
     }
     .community {
-        width: 350px;
+        width: 100%;
         height: auto;
     }
     #community {
@@ -149,5 +147,62 @@ figcaption a {
         margin-left: 0;
         margin-right: 0;
     }
+}
 
+@media screen and (min-width: 790px) {
+
+    article {
+
+        max-width: 790px;
+
+    }
+    .about-container, .mission-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    #aboutus {
+        grid-row: 1;
+    }
+    .about-text {
+        grid-column: 1;
+        margin-left: 5%;
+    }
+    .about-figure {
+        grid-column: 2;
+    }
+    .dps {
+        width: 100%;
+        height: auto;
+    }
+    figcaption {
+        width: 200px;
+        font-size: small;
+    }
+
+    #missionvision {
+        grid-row: 2;
+    }
+    .mission-text {
+        grid-column: 1;
+        margin-left: 5%;
+    }
+    #missionvision h3 {
+        text-align: left;
+        margin-left: 0;
+    }
+    .mission-figure {
+        grid-column: 2;
+        border: 0;
+    }
+    .community {
+        width: 100%;
+        height: auto;
+    }
+    #community {
+        width: 350px;
+        margin-left: 0;
+        margin-right: 0;
+    }
 }

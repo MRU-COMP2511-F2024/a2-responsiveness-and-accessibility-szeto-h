@@ -11,19 +11,17 @@ h1 {
     color: antiquewhite;
     padding: 1em;
     margin-top: 0%;
-    margin-left: 5%;
-    margin-right: 5%;
 }
 .navbar {
     background-color: #62B6CB;
     padding: 0em 0.05em 0.05em 0.05em;
-    margin-left: 5%;
-    margin-right: 5%;
     position: sticky;
     top: 0px;
     overflow: hidden;
     text-align: center;
+    font-size: small;
 }
+
 nav ul li {
     display: inline;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -80,7 +78,6 @@ footer {
         position: fixed;
         height: 35%;
         width: 18%;
-        font-size: small;
         margin: 0; 
         padding: 0;
         top: 20%;
@@ -123,7 +120,7 @@ footer {
         margin-left: 0%;
         margin-right: 0%;
         width: 100%;
-        font-size: small;
+        font-size: 2vw;
     }
     main {
         margin-left: 0%;
