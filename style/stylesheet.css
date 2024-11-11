@@ -35,7 +35,7 @@ nav ul li {
     color:antiquewhite;
     font-weight: bold;
 }
-a {
+nav ul li a {
     color: #252628;
 }
 a:hover {
