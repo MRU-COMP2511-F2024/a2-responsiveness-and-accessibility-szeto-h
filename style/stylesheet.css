@@ -37,6 +37,8 @@ nav ul li {
 }
 nav ul li a {
     color: #252628;
+    font-weight: bold;
+    padding: 1%;
 }
 a:hover {
     background-color: #BEE9E8;
