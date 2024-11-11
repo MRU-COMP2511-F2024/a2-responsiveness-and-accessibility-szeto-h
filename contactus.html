@@ -57,12 +57,12 @@
                         <dl>
                             <dt><small>Fields with * are required fields.</small></dt>
 
-                            <dt><label for="mr">Salutation* :</label></dt>
+                            <dt>Salutation* :</dt>
                             <dd>
-                                <input type="radio" name="salutation" id="mr">Mr.
-                                <input type="radio" name="salutation" id="mrs" required>Mrs.
-                                <input type="radio" name="salutation" id="ms">Ms.
-                                <input type="radio" name="salutation" id="miss">Miss
+                                <input type="radio" name="salutation" id="mr"><label for="mr">Mr.</label>
+                                <input type="radio" name="salutation" id="mrs" required><label for="mrs">Mrs.</label>
+                                <input type="radio" name="salutation" id="ms"><label for="ms">Ms.</label>
+                                <input type="radio" name="salutation" id="miss"><label for="miss">Miss</label>
                             </dd>
 
                             <dt><label for="fname">First name* :</label></dt>
@@ -93,12 +93,12 @@
                             <dd><textarea name="message" id="message" rows="3" cols="40"
                                     placeholder="Please enter your message*" required></textarea></dd>
 
-                            <dt><label for="terms">Please agree to the following before you submit* :</label></dt>
-                            <dd class="agreeopt"><input type="checkbox" name="agree" id="terms" required>I have read the
-                                terms and conditions.</dd>
-                            <dd class="agreeopt"><input type="checkbox" name="agree" id="news" required>I understand
+                            <dt>Please agree to the following before you submit* :</label></dt>
+                            <dd class="agreeopt"><input type="checkbox" name="agree" id="terms" required><label for="terms">I have read the
+                                terms and conditions.</label></dd>
+                            <dd class="agreeopt"><input type="checkbox" name="agree" id="news" required><label for="news"> I understand
                                 that
-                                by submitting this form I am NOT signing up for news updates.</dd>
+                                by submitting this form I am NOT signing up for news updates.</label></dd>
                         </dl>
                         <input type="reset" value="Clear">
                         <input type="submit" value="Submit">
