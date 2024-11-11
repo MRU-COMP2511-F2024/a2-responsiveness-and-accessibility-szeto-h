@@ -5,4 +5,4 @@ https://docs.google.com/document/d/1pmo_NX_ZfmEtSR7PkO8wVo0BXL2NZ5HNvDyUfYcMSJY/
 
 # Web Accessibility
 
-##
+## Throug the manual and automated analaysis I can see that white letters on light blue background in navigation bar may not be enough colour contrast, as a result, color of the background and text is changed. Semantic errors were also corrected to ensure text to speech availability. Descriptive image alt text is edited to increase accessibility.
