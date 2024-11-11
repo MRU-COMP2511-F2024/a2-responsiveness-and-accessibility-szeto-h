@@ -1,9 +1,9 @@
 html {
     background-color: #252628;
-    color:antiquewhite;
 }
 main {
     margin: 1rem;
+    color:antiquewhite;
 }
 h1, h2, h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
