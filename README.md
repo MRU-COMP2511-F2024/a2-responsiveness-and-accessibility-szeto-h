@@ -5,4 +5,4 @@ https://docs.google.com/document/d/1pmo_NX_ZfmEtSR7PkO8wVo0BXL2NZ5HNvDyUfYcMSJY/
 
 # Web Accessibility
 
-## Replace this text with your response here...
+##
