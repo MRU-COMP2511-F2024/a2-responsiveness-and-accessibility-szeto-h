@@ -1,13 +1,3 @@
-.logo figure {
-    background-color: #BEC0BD;
-}
-.logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 500px;
-}
-
 article {
     width: 80vw;
 }

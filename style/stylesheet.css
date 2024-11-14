@@ -9,8 +9,10 @@ h1, h2, h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
 }
-h1 {
+header {
     background-color: #1B4965;
+}
+h1 {
     color: antiquewhite;
     padding: 1em;
     margin-top: 0%;
@@ -43,6 +45,13 @@ nav ul li a {
 a:hover {
     background-color: #BEE9E8;
     color:#252628;
+}
+.logo {
+    background-color: #BEC0BD;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
 }
 main {
     margin-left: 20%;
@@ -79,8 +88,12 @@ footer {
     
     h1 {
         margin:0;
+        font-size: 6vw;
     }
-
+    .logo {
+        width: 100%;
+        height:auto;
+    }
     .navbar {
         position: fixed;
         height: fit-content;

@@ -26,7 +26,7 @@ td, th {
     padding: 8px;
     text-align: center;
 }
-figure {
+.analysis-figure figure {
     float: left;
     width: 400px;
 }
@@ -52,7 +52,7 @@ figcaption a {
     main {
         font-size: 3vw;
     }
-    figure {
+    .analysis-figure {
         display: none;
     }
     #data {
